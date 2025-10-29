@@ -1,3 +1,30 @@
-theme: jekyll-theme-minimal
-title: Janko´s Portfolio
-description: Bookmark this to keep an eye on my project updates!
+# --- Basisdaten ---
+title: "Janko117 Portfolio"
+name: "Janko117"
+description: "Meine Coding-Projekte und Data-Science-Notebooks"
+url: "https://janko117.github.io"
+repository: "janko117/janko117.github.io"
+
+# --- Minimal Mistakes aktivieren ---
+theme: null
+remote_theme: "mmistakes/minimal-mistakes@4.26.1"
+
+# --- Plugins (wichtig!) ---
+plugins:
+  - jekyll-include-cache
+
+# --- Layout / Skin auswählen ---
+minimal_mistakes_skin: "dark"
+
+# --- Navigation (optional) ---
+navigation:
+  - title: "Start"
+    url: /
+  - title: "Projekte"
+    url: /projects/
+  - title: "Über mich"
+    url: /about/
+
+# --- Markdown & Einstellungen ---
+markdown: kramdown
+highlighter: rouge
