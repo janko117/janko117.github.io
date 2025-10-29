@@ -1,6 +1,11 @@
 ---
 layout: home
-title: Willkommen
+author_profile: true
+title: "Willkommen"
 ---
-# Meine Projekte
+
+# Willkommen auf meinem Portfolio
+
+Hier findest du meine Data-Science- und Coding-Projekte.
+
 - [Advanced Data Engineering](Advanced%20Data%20Engineering/)
